@@ -1,4 +1,4 @@
-basic.showString("RCVR")
+basic.showString("SNDR")
 radio.setGroup(37)
 basic.forever(function () {
     radio.sendValue("Celcius", 0)
